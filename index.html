@@ -5,10 +5,209 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7c63c67dc3.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div style="background-image: linear-gradient( rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/IMG_5344_2.webp)" class="bg-cover d-block c-image w-100">
+                <div class="carousel-caption">
+                    <h1 class="text-uppercase">SD Negeri Ciberem Sumbang Banyumas</h1>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div style="background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/IMG_5364.webp)" class="bg-cover d-block w-100">
+                <div class="carousel-caption">
+                    <h1 class="text-uppercase">Perpustakaan Cerdik</h1>
+                    <h2>SD Negeri Ciberem Sumbang Banyumas</h2>
+                </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">SD Negeri Ciberem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="#">Visi & Misi</a>
+                    <a class="nav-link" href="#">Prestasi</a>
+                    <a class="nav-link" href="#">Fasilitas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="text-center my-5 titled">Tentang Kami</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p align="justify" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maiores ut, libero totam enim rem? Voluptas magni ut repudiandae molestiae! Quam tempora, perferendis eveniet iste quia dignissimos minus accusamus eligendi omnis, porro magnam repudiandae ullam eos eius accusantium qui exercitationem est sapiente odio maiores dolorum id in. Doloremque facere quibusdam expedita explicabo quo, placeat quas totam dignissimos minus fugit sint natus ducimus repellendus quisquam provident, deleniti ut necessitatibus in? Distinctio nobis minima praesentium ab, nemo omnis consequuntur quae, accusantium quidem pariatur neque officiis eligendi quas officia aperiam culpa, itaque necessitatibus labore cumque! Qui voluptates cum quasi voluptatum accusamus tenetur harum?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/IMG_5344_2.webp" class="w-100 rounded-3">
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <section id="vm">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="text-center my-5 titled">Visi & Misi</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Visi</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam unde quisquam ipsa similique repudiandae neque temporibus hic, illo soluta dolor!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Misi</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam unde quisquam ipsa similique repudiandae neque temporibus hic, illo soluta dolor!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <section id="achievement">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="text-center my-5 titled">Prestasi</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/IMG_5356.webp" class="w-100 rounded-3">
+                </div>
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">2022</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam unde quisquam ipsa similique repudiandae neque temporibus hic, illo soluta dolor!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <section id="facility">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class="text-center my-5 titled">Fasilitas</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="images/IMG_5354.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5354.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ruang Kelas</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="images/IMG_5340.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5339.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ruang Mushalla</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="images/IMG_5348.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5348.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ruang Kelas</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="images/IMG_5364.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5364.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Perpustakaan</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="images/IMG_5363.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5363.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Taman Bermain</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="images/IMG_5352.webp" target="_BLANK">
+                        <div class="card">
+                            <img class="card-img-top" src="images/IMG_5352.webp">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Lorong Kelas</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-3 border-bottom">
+            <div class="container text-center text-md-start mt-3">
+                <div class="row mt-3">
+                    <div class="col-md-9 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">SD Negeri Ciberem</h6>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, illo!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Sumbang, Banyumas</p>
+                        <p><i class="fas fa-envelope me-3"></i> me@hanifz.com</p>
+                        <p><i class="fas fa-phone me-3"></i> + 62 851 5511 5555</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center py-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            <p class="pt-2">&copy; 2022 All right reserved.</p>
+        </div>
+    </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
