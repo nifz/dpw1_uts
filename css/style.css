@@ -1,0 +1,111 @@
+.h-full
+{
+    height: 100vh;
+}
+.carousel-caption
+{
+    bottom: 45%;
+}
+.carousel .carousel-item 
+{
+    height: 100vh;
+}
+.bg-cover 
+{
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item .bg-cover 
+{
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+}
+.navbar
+{
+    height: 80px;
+}
+.navbar-light
+{
+    background-color: #fff !important;
+    transition: .5s;
+    box-shadow: 0px 2px 5px #0000001f;
+}
+#about
+{
+    /* background-image: url('../images/IMG_5344_2_blur.webp'); */
+    background-image: linear-gradient(rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.6) 100%), url('../images/IMG_5344_2_blur.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#vm
+{
+    /* background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../images/IMG_5350.webp'); */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.titled
+{
+    background-color: #fff;
+    width: auto !important;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.spacer
+{
+    padding-bottom: 60px;
+}
+#achievement
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../images/IMG_5367_blur.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#facility
+{
+    /* background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../images/IMG_5367_blur.webp'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+a:hover
+{
+    color: #000;
+}
+.card
+{
+    margin-bottom: 25px;
+}
+.card-img-top 
+{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+footer
+{
+    background-color: #000;
+    color: #fff;
+}
