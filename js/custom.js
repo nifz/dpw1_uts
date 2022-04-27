@@ -19,7 +19,7 @@ $(document).ready(function () {
 function onScroll(){
     console.clear();
     history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
-    var scrollPos = $(this).scrollTop() + 80;
+    var scrollPos = $(this).scrollTop() + 90;
     $('#navbarSupportedContent .activated').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
