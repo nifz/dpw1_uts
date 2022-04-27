@@ -4,7 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    max-width: 100% !important;
     overflow-x: hidden !important;
 }
 .h-full
