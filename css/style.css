@@ -2,7 +2,6 @@
 *
 {
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
 .h-full
 {
@@ -149,4 +148,8 @@ a:hover
 	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 	40% {transform: translateY(-30px);}
 	60% {transform: translateY(-15px);}
+}
+.ofh
+{
+    overflow-x: hidden;
 }
