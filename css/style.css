@@ -115,6 +115,10 @@ a:hover
     height: 300px;
     object-fit: cover;
 }
+.card .card-img-top:hover
+{
+    opacity: 0.8;
+}
 .chevron
 {
     text-align: center;
